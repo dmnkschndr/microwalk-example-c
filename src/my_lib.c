@@ -5,6 +5,8 @@
 
 #define NOINLINE __attribute__((noinline))
 
+//add line to trigger ci
+
 uint8_t lookup[256];
 
 void init(void)
@@ -54,3 +56,4 @@ int loop_leakage(uint8_t *input, int inputLength)
 	
 	return 2;
 }
+
